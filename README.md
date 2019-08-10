@@ -25,6 +25,8 @@ cd example
 
 gcc  main.cpp -o main -pthread /usr/lib/tobii/libtobii_stream_engine.so
 
+ldconfig
+
 ./main
 
 ![Example test](media/example_test.gif)
